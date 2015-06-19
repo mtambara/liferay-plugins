@@ -147,6 +147,27 @@ public class Foo {
 		</example>
 	</rule>
 	<rule
+		class="com.liferay.pmd.rules.java.SingletonRule"
+		language="java"
+		message="Do not create instances of yourself."
+		name="SingletonRule"
+		since="0.2"
+	>
+		<description>
+			Avoid creating instances of singleton classes within themselves.
+		</description>
+		<priority>3</priority>
+		<example>
+			<![CDATA[
+public class Foo {
+
+	private static final Foo _instance = new Foo();
+
+}
+			]]>
+		</example>
+	</rule>
+	<rule
 		class="net.sourceforge.pmd.lang.java.rule.unnecessary.UselessOperationOnImmutableRule"
 		externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/unnecessary.html#UselessOperationOnImmutable"
 		message="An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself"

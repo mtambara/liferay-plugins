@@ -88,13 +88,13 @@ import com.liferay.portal.util.PortalUtil;
 import com.liferay.portal.util.comparator.UserLastNameComparator;
 import com.liferay.portlet.announcements.model.AnnouncementsDelivery;
 import com.liferay.portlet.announcements.service.AnnouncementsDeliveryLocalServiceUtil;
+import com.liferay.portlet.kernel.usersadmin.util.UsersAdminUtil;
 import com.liferay.portlet.social.NoSuchRelationException;
 import com.liferay.portlet.social.model.SocialRelation;
 import com.liferay.portlet.social.model.SocialRequest;
 import com.liferay.portlet.social.model.SocialRequestConstants;
 import com.liferay.portlet.social.service.SocialRelationLocalServiceUtil;
 import com.liferay.portlet.social.service.SocialRequestLocalServiceUtil;
-import com.liferay.portlet.usersadmin.util.UsersAdminUtil;
 
 import java.util.ArrayList;
 import java.util.Calendar;

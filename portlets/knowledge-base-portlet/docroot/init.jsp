@@ -25,7 +25,8 @@ taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %><%@
 taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %><%@
 taglib uri="http://liferay.com/tld/util" prefix="liferay-util" %>
 
-<%@ page import="com.liferay.journal.model.JournalArticle" %><%@
+<%@ page import="com.liferay.admin.kernel.util.PortalSearchApplicationType" %><%@
+page import="com.liferay.journal.model.JournalArticle" %><%@
 page import="com.liferay.knowledgebase.exception.DuplicateKBFolderNameException" %><%@
 page import="com.liferay.knowledgebase.exception.InvalidKBFolderNameException" %><%@
 page import="com.liferay.knowledgebase.exception.KBArticleContentException" %><%@
@@ -124,7 +125,6 @@ page import="com.liferay.portal.service.permission.PortletPermissionUtil" %><%@
 page import="com.liferay.portal.util.PortalUtil" %><%@
 page import="com.liferay.portlet.PortalPreferences" %><%@
 page import="com.liferay.portlet.PortletPreferencesFactoryUtil" %><%@
-page import="com.liferay.portlet.admin.util.PortalSearchApplicationType" %><%@
 page import="com.liferay.portlet.asset.AssetRendererFactoryRegistryUtil" %><%@
 page import="com.liferay.portlet.asset.model.AssetCategory" %><%@
 page import="com.liferay.portlet.asset.model.AssetEntry" %><%@
@@ -141,7 +141,7 @@ page import="com.liferay.portlet.documentlibrary.exception.FileNameException" %>
 page import="com.liferay.portlet.documentlibrary.exception.FileSizeException" %><%@
 page import="com.liferay.portlet.documentlibrary.exception.NoSuchFileException" %><%@
 page import="com.liferay.portlet.messageboards.model.MBMessage" %><%@
-page import="com.liferay.portlet.portletconfiguration.util.PortletConfigurationApplicationType" %><%@
+page import="com.liferay.portlet.configuration.kernel.util.PortletConfigurationApplicationType" %><%@
 page import="com.liferay.taglib.search.DateSearchEntry" %><%@
 page import="com.liferay.taglib.search.ResultRow" %><%@
 page import="com.liferay.util.RSSUtil" %><%@

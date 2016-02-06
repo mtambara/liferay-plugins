@@ -22,7 +22,7 @@ import com.liferay.contacts.exception.EntryEmailAddressException;
 import com.liferay.contacts.exception.RequiredEntryEmailAddressException;
 import com.liferay.contacts.model.Entry;
 import com.liferay.contacts.service.base.EntryLocalServiceBaseImpl;
-import com.liferay.portal.ContactFullNameException;
+import com.liferay.portal.kernel.exception.ContactFullNameException;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.model.BaseModel;
 import com.liferay.portal.kernel.model.User;

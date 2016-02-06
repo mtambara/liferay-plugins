@@ -818,7 +818,7 @@ public class EntryLocalServiceClp implements EntryLocalService {
 	}
 
 	@Override
-	public java.util.List<com.liferay.portal.model.BaseModel<?>> searchUsersAndContacts(
+	public java.util.List<com.liferay.portal.kernel.model.BaseModel<?>> searchUsersAndContacts(
 		long companyId, long userId, java.lang.String keywords, int start,
 		int end) {
 		Object returnObj = null;
@@ -850,7 +850,7 @@ public class EntryLocalServiceClp implements EntryLocalService {
 			}
 		}
 
-		return (java.util.List<com.liferay.portal.model.BaseModel<?>>)ClpSerializer.translateOutput(returnObj);
+		return (java.util.List<com.liferay.portal.kernel.model.BaseModel<?>>)ClpSerializer.translateOutput(returnObj);
 	}
 
 	@Override

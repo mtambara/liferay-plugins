@@ -54,7 +54,7 @@ public class FooUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(Foo foo) {
 		getPersistence().clearCache(foo);
@@ -93,14 +93,14 @@ public class FooUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static Foo update(Foo foo) {
 		return getPersistence().update(foo);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static Foo update(Foo foo, ServiceContext serviceContext) {
 		return getPersistence().update(foo, serviceContext);

@@ -54,7 +54,7 @@ public class StatusUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(Status status) {
 		getPersistence().clearCache(status);
@@ -93,14 +93,14 @@ public class StatusUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static Status update(Status status) {
 		return getPersistence().update(status);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static Status update(Status status, ServiceContext serviceContext) {
 		return getPersistence().update(status, serviceContext);

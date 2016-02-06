@@ -54,7 +54,7 @@ public class JIRAChangeItemUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(JIRAChangeItem jiraChangeItem) {
 		getPersistence().clearCache(jiraChangeItem);
@@ -95,14 +95,14 @@ public class JIRAChangeItemUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static JIRAChangeItem update(JIRAChangeItem jiraChangeItem) {
 		return getPersistence().update(jiraChangeItem);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static JIRAChangeItem update(JIRAChangeItem jiraChangeItem,
 		ServiceContext serviceContext) {

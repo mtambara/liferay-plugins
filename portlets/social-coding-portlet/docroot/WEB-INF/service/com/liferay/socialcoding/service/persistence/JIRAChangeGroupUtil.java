@@ -54,7 +54,7 @@ public class JIRAChangeGroupUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(JIRAChangeGroup jiraChangeGroup) {
 		getPersistence().clearCache(jiraChangeGroup);
@@ -95,14 +95,14 @@ public class JIRAChangeGroupUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static JIRAChangeGroup update(JIRAChangeGroup jiraChangeGroup) {
 		return getPersistence().update(jiraChangeGroup);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static JIRAChangeGroup update(JIRAChangeGroup jiraChangeGroup,
 		ServiceContext serviceContext) {

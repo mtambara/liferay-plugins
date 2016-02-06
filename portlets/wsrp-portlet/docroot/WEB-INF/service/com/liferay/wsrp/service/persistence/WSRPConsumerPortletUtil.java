@@ -54,7 +54,7 @@ public class WSRPConsumerPortletUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(WSRPConsumerPortlet wsrpConsumerPortlet) {
 		getPersistence().clearCache(wsrpConsumerPortlet);
@@ -95,7 +95,7 @@ public class WSRPConsumerPortletUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static WSRPConsumerPortlet update(
 		WSRPConsumerPortlet wsrpConsumerPortlet) {
@@ -103,7 +103,7 @@ public class WSRPConsumerPortletUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static WSRPConsumerPortlet update(
 		WSRPConsumerPortlet wsrpConsumerPortlet, ServiceContext serviceContext) {

@@ -55,7 +55,7 @@ public class MicroblogsEntryUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(MicroblogsEntry microblogsEntry) {
 		getPersistence().clearCache(microblogsEntry);
@@ -96,14 +96,14 @@ public class MicroblogsEntryUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static MicroblogsEntry update(MicroblogsEntry microblogsEntry) {
 		return getPersistence().update(microblogsEntry);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static MicroblogsEntry update(MicroblogsEntry microblogsEntry,
 		ServiceContext serviceContext) {

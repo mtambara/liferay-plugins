@@ -54,7 +54,7 @@ public class OAuthConsumerUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(OAuthConsumer oAuthConsumer) {
 		getPersistence().clearCache(oAuthConsumer);
@@ -95,14 +95,14 @@ public class OAuthConsumerUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static OAuthConsumer update(OAuthConsumer oAuthConsumer) {
 		return getPersistence().update(oAuthConsumer);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static OAuthConsumer update(OAuthConsumer oAuthConsumer,
 		ServiceContext serviceContext) {

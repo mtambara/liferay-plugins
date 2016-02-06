@@ -54,7 +54,7 @@ public class TestBlobEntryUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static void clearCache(TestBlobEntry testBlobEntry) {
 		getPersistence().clearCache(testBlobEntry);
@@ -95,14 +95,14 @@ public class TestBlobEntryUtil {
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
 	 */
 	public static TestBlobEntry update(TestBlobEntry testBlobEntry) {
 		return getPersistence().update(testBlobEntry);
 	}
 
 	/**
-	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.model.BaseModel, ServiceContext)
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
 	 */
 	public static TestBlobEntry update(TestBlobEntry testBlobEntry,
 		ServiceContext serviceContext) {

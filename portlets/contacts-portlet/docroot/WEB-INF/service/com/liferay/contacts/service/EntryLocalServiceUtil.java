@@ -268,7 +268,7 @@ public class EntryLocalServiceUtil {
 		return getService().searchCount(userId, keywords);
 	}
 
-	public static java.util.List<com.liferay.portal.model.BaseModel<?>> searchUsersAndContacts(
+	public static java.util.List<com.liferay.portal.kernel.model.BaseModel<?>> searchUsersAndContacts(
 		long companyId, long userId, java.lang.String keywords, int start,
 		int end) {
 		return getService()

@@ -24,20 +24,20 @@ taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %><%@
 taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 
 <%@ page import="com.liferay.mysubscriptions.util.MySubscriptionsUtil" %><%@
-page import="com.liferay.portal.exception.NoSuchSubscriptionException" %><%@
 page import="com.liferay.portal.kernel.dao.search.RowChecker" %><%@
+page import="com.liferay.portal.kernel.exception.NoSuchSubscriptionException" %><%@
 page import="com.liferay.portal.kernel.language.UnicodeLanguageUtil" %><%@
+page import="com.liferay.portal.kernel.model.Subscription" %><%@
 page import="com.liferay.portal.kernel.portlet.LiferayPortletRequest" %><%@
 page import="com.liferay.portal.kernel.portlet.LiferayPortletResponse" %><%@
 page import="com.liferay.portal.kernel.portlet.LiferayWindowState" %><%@
 page import="com.liferay.portal.kernel.security.permission.ResourceActionsUtil" %><%@
+page import="com.liferay.portal.kernel.service.SubscriptionLocalServiceUtil" %><%@
 page import="com.liferay.portal.kernel.util.StringBundler" %><%@
 page import="com.liferay.portal.kernel.util.StringPool" %><%@
 page import="com.liferay.portal.kernel.util.Validator" %><%@
 page import="com.liferay.portal.kernel.util.WebKeys" %><%@
 page import="com.liferay.portal.kernel.util.comparator.SubscriptionClassNameIdComparator" %><%@
-page import="com.liferay.portal.model.Subscription" %><%@
-page import="com.liferay.portal.service.SubscriptionLocalServiceUtil" %><%@
 page import="com.liferay.portal.util.PortalUtil" %><%@
 page import="com.liferay.portlet.asset.model.AssetRenderer" %><%@
 page import="com.liferay.taglib.search.ResultRow" %>

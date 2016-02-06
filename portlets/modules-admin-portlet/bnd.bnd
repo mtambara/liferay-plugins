@@ -48,6 +48,8 @@ Import-Package:\
 	*;resolution:="optional"
 Private-Package: com.liferay.modulesadmin.util
 Web-ContextPath: /modules-admin-portlet
+-output=modules-admin-portlet.jar
+
 -wab:\
 	docroot,\
 	{WEB-INF/liferay-display.xml=docroot/WEB-INF/liferay-display.xml},\
@@ -57,5 +59,3 @@ Web-ContextPath: /modules-admin-portlet
 -wablib:\
 	${app.server.lib.portal.dir}/util-java.jar,\
 	${app.server.lib.portal.dir}/util-taglib.jar
-
--output=modules-admin-portlet.jar

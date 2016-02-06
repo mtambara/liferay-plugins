@@ -26,7 +26,6 @@ page import="com.liferay.microblogs.model.MicroblogsEntryConstants" %><%@
 page import="com.liferay.microblogs.service.MicroblogsEntryLocalServiceUtil" %><%@
 page import="com.liferay.portal.kernel.util.PropsKeys" %><%@
 page import="com.liferay.portal.kernel.util.PropsUtil" %><%@
-page import="com.liferay.portal.kernel.util.StringPool" %><%@
 page import="com.liferay.portal.kernel.util.Time" %><%@
 page import="com.liferay.portal.service.ServiceContext" %><%@
 page import="com.liferay.portal.service.ServiceContextFactory" %><%@

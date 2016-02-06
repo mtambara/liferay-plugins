@@ -1155,16 +1155,16 @@ public class ExtRepositoryAdapter extends BaseRepositoryImpl {
 
 		dlAppHelperLocalService.checkAssetEntry(
 			PrincipalThreadLocal.getUserId(), extRepositoryFileEntryAdapter,
-			extRepositoryFileEntryAdapter.getFileVersion() );
+			extRepositoryFileEntryAdapter.getFileVersion());
 	}
 
 	private User _fetchDefaultUser() {
 		try {
 			return userLocalService.getDefaultUser(getCompanyId());
 		}
-		catch (PortalException e) {
+		catch (PortalException pe) {
 			_log.error(
-				"Unable to get default user for company " + getCompanyId(), e);
+				"Unable to get default user for company " + getCompanyId(), pe);
 
 			return null;
 		}

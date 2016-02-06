@@ -59,9 +59,9 @@ page import="com.liferay.util.portlet.PortletProps" %>
 page import="java.util.List" %><%@
 page import="java.util.Map" %>
 
-<portlet:defineObjects />
-
 <liferay-theme:defineObjects />
+
+<portlet:defineObjects />
 
 <%
 String instanceId = portletDisplay.getInstanceId();

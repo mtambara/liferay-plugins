@@ -35,7 +35,7 @@ long[] classNameIdValues = StringUtil.split(ParamUtil.getString(request, "classN
 	<liferay-ui:error key="rulesEngineException" message="please-check-the-syntax-of-your-rules" />
 
 	<aui:fieldset>
-		<aui:input name="domainName" value="<%= domainNameValue %>" wrapperCssClass="lfr-input-text-container"  />
+		<aui:input name="domainName" value="<%= domainNameValue %>" wrapperCssClass="lfr-input-text-container" />
 
 		<aui:input name="rules" style="height: 250px; width: 100%;" type="textarea" value="<%= rulesValue %>" wrap="off" wrapperCssClass="lfr-textarea-container" />
 

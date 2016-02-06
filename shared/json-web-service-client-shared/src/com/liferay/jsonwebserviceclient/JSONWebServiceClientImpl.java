@@ -153,8 +153,8 @@ public class JSONWebServiceClientImpl implements JSONWebServiceClient {
 		try {
 			_closeableHttpClient.close();
 		}
-		catch (IOException e) {
-			_logger.error("Unable to close client", e);
+		catch (IOException ioe) {
+			_logger.error("Unable to close client", ioe);
 		}
 
 		_closeableHttpClient = null;

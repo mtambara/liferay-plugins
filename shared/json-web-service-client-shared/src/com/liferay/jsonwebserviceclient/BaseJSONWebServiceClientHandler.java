@@ -90,8 +90,8 @@ public abstract class BaseJSONWebServiceClientHandler {
 
 			return objectMapper.readValue(json, javaType);
 		}
-		catch (IOException ie) {
-			throw new JSONWebServiceInvocationException(ie);
+		catch (IOException ioe) {
+			throw new JSONWebServiceInvocationException(ioe);
 		}
 	}
 
@@ -127,8 +127,8 @@ public abstract class BaseJSONWebServiceClientHandler {
 		try {
 			return objectMapper.readValue(json, clazz);
 		}
-		catch (IOException ie) {
-			throw new JSONWebServiceInvocationException(ie);
+		catch (IOException ioe) {
+			throw new JSONWebServiceInvocationException(ioe);
 		}
 	}
 
@@ -164,8 +164,8 @@ public abstract class BaseJSONWebServiceClientHandler {
 
 			return jsonWebServiceClient.doPostAsJSON(url, json);
 		}
-		catch (IOException ie) {
-			throw new JSONWebServiceInvocationException(ie);
+		catch (IOException ioe) {
+			throw new JSONWebServiceInvocationException(ioe);
 		}
 	}
 
@@ -187,8 +187,8 @@ public abstract class BaseJSONWebServiceClientHandler {
 		try {
 			return objectMapper.readValue(json, clazz);
 		}
-		catch (IOException ie) {
-			throw new JSONWebServiceInvocationException(ie);
+		catch (IOException ioe) {
+			throw new JSONWebServiceInvocationException(ioe);
 		}
 	}
 

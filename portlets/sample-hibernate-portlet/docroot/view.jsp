@@ -97,7 +97,7 @@ WindowState windowState = renderRequest.getWindowState();
 		<aui:input name="<%= Constants.CMD %>" type="hidden" value="" />
 		<aui:input name="foodItemId" type="hidden" value="" />
 
-		<input onClick="self.location = '<portlet:renderURL><portlet:param name="<%= Constants.CMD %>" value="<%= Constants.ADD %>" /></portlet:renderURL>';"  type="button" value="Add" />
+		<input onClick="self.location = '<portlet:renderURL><portlet:param name="<%= Constants.CMD %>" value="<%= Constants.ADD %>" /></portlet:renderURL>';" type="button" value="Add" />
 
 		<br /><br />
 

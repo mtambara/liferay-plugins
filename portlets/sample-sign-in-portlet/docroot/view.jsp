@@ -43,9 +43,9 @@
 
 <%@ page import="javax.portlet.WindowState" %>
 
-<portlet:defineObjects />
-
 <liferay-theme:defineObjects />
+
+<portlet:defineObjects />
 
 <c:choose>
 	<c:when test="<%= themeDisplay.isSignedIn() %>">

@@ -58,9 +58,9 @@ page import="com.liferay.portal.util.PortalUtil" %>
 <%@ page import="java.util.ArrayList" %><%@
 page import="java.util.List" %>
 
-<portlet:defineObjects />
-
 <liferay-theme:defineObjects />
+
+<portlet:defineObjects />
 
 <%
 Format dateFormatDateTime = FastDateFormatFactoryUtil.getDateTime(locale, timeZone);

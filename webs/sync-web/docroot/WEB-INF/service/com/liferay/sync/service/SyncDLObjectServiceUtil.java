@@ -143,7 +143,7 @@ public class SyncDLObjectServiceUtil {
 		return getService().getFolderSyncDLObjects(repositoryId, parentFolderId);
 	}
 
-	public static com.liferay.portal.model.Group getGroup(long groupId)
+	public static com.liferay.portal.kernel.model.Group getGroup(long groupId)
 		throws com.liferay.portal.kernel.exception.PortalException {
 		return getService().getGroup(groupId);
 	}
@@ -190,7 +190,7 @@ public class SyncDLObjectServiceUtil {
 			lastAccessTime);
 	}
 
-	public static java.util.List<com.liferay.portal.model.Group> getUserSitesGroups()
+	public static java.util.List<com.liferay.portal.kernel.model.Group> getUserSitesGroups()
 		throws com.liferay.portal.kernel.exception.PortalException {
 		return getService().getUserSitesGroups();
 	}

@@ -495,7 +495,7 @@ public class SyncDLObjectServiceHttp {
 		}
 	}
 
-	public static com.liferay.portal.model.Group getGroup(
+	public static com.liferay.portal.kernel.model.Group getGroup(
 		HttpPrincipal httpPrincipal, long groupId)
 		throws com.liferay.portal.kernel.exception.PortalException {
 		try {
@@ -517,7 +517,7 @@ public class SyncDLObjectServiceHttp {
 				throw new com.liferay.portal.kernel.exception.SystemException(e);
 			}
 
-			return (com.liferay.portal.model.Group)returnObj;
+			return (com.liferay.portal.kernel.model.Group)returnObj;
 		}
 		catch (com.liferay.portal.kernel.exception.SystemException se) {
 			_log.error(se, se);
@@ -689,7 +689,7 @@ public class SyncDLObjectServiceHttp {
 		}
 	}
 
-	public static java.util.List<com.liferay.portal.model.Group> getUserSitesGroups(
+	public static java.util.List<com.liferay.portal.kernel.model.Group> getUserSitesGroups(
 		HttpPrincipal httpPrincipal)
 		throws com.liferay.portal.kernel.exception.PortalException {
 		try {
@@ -711,7 +711,7 @@ public class SyncDLObjectServiceHttp {
 				throw new com.liferay.portal.kernel.exception.SystemException(e);
 			}
 
-			return (java.util.List<com.liferay.portal.model.Group>)returnObj;
+			return (java.util.List<com.liferay.portal.kernel.model.Group>)returnObj;
 		}
 		catch (com.liferay.portal.kernel.exception.SystemException se) {
 			_log.error(se, se);

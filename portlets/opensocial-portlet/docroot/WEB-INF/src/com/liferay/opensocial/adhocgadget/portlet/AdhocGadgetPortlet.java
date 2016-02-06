@@ -17,8 +17,8 @@ package com.liferay.opensocial.adhocgadget.portlet;
 import com.liferay.opensocial.gadget.portlet.BaseGadgetPortlet;
 import com.liferay.opensocial.model.Gadget;
 import com.liferay.opensocial.shindig.util.ShindigUtil;
+import com.liferay.portal.kernel.model.Portlet;
 import com.liferay.portal.kernel.util.WebKeys;
-import com.liferay.portal.model.Portlet;
 import com.liferay.portlet.PortletPreferencesFactoryUtil;
 
 import javax.portlet.PortletPreferences;

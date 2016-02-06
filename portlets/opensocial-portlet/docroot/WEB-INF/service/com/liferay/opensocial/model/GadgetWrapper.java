@@ -21,7 +21,7 @@ import com.liferay.expando.kernel.model.ExpandoBridge;
 import com.liferay.exportimport.kernel.lar.StagedModelType;
 
 import com.liferay.portal.kernel.util.Validator;
-import com.liferay.portal.model.ModelWrapper;
+import com.liferay.portal.kernel.model.ModelWrapper;
 import com.liferay.portal.service.ServiceContext;
 
 import java.io.Serializable;
@@ -407,7 +407,7 @@ public class GadgetWrapper implements Gadget, ModelWrapper<Gadget> {
 	}
 
 	@Override
-	public com.liferay.portal.model.CacheModel<com.liferay.opensocial.model.Gadget> toCacheModel() {
+	public com.liferay.portal.kernel.model.CacheModel<com.liferay.opensocial.model.Gadget> toCacheModel() {
 		return _gadget.toCacheModel();
 	}
 

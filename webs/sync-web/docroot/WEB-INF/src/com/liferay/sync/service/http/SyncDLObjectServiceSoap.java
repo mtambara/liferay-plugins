@@ -257,10 +257,10 @@ public class SyncDLObjectServiceSoap {
 		}
 	}
 
-	public static com.liferay.portal.model.Group getGroup(long groupId)
+	public static com.liferay.portal.kernel.model.Group getGroup(long groupId)
 		throws RemoteException {
 		try {
-			com.liferay.portal.model.Group returnValue = SyncDLObjectServiceUtil.getGroup(groupId);
+			com.liferay.portal.kernel.model.Group returnValue = SyncDLObjectServiceUtil.getGroup(groupId);
 
 			return returnValue;
 		}
@@ -345,12 +345,12 @@ public class SyncDLObjectServiceSoap {
 		}
 	}
 
-	public static com.liferay.portal.model.GroupSoap[] getUserSitesGroups()
+	public static com.liferay.portal.kernel.model.GroupSoap[] getUserSitesGroups()
 		throws RemoteException {
 		try {
-			java.util.List<com.liferay.portal.model.Group> returnValue = SyncDLObjectServiceUtil.getUserSitesGroups();
+			java.util.List<com.liferay.portal.kernel.model.Group> returnValue = SyncDLObjectServiceUtil.getUserSitesGroups();
 
-			return com.liferay.portal.model.GroupSoap.toSoapModels(returnValue);
+			return com.liferay.portal.kernel.model.GroupSoap.toSoapModels(returnValue);
 		}
 		catch (Exception e) {
 			_log.error(e, e);

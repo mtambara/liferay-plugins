@@ -51,12 +51,12 @@ public class FooServiceUtil {
 		return getService().getOSGiServiceIdentifier();
 	}
 
-	public static com.liferay.portal.model.User getUser(long userId)
+	public static com.liferay.portal.kernel.model.User getUser(long userId)
 		throws com.liferay.portal.kernel.exception.PortalException {
 		return getService().getUser(userId);
 	}
 
-	public static java.util.List<com.liferay.portal.model.Group> getUserSitesGroups()
+	public static java.util.List<com.liferay.portal.kernel.model.Group> getUserSitesGroups()
 		throws com.liferay.portal.kernel.exception.PortalException {
 		return getService().getUserSitesGroups();
 	}

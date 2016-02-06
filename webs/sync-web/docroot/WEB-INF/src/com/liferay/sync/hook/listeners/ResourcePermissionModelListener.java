@@ -14,12 +14,12 @@
 
 package com.liferay.sync.hook.listeners;
 
-import com.liferay.portal.exception.ModelListenerException;
+import com.liferay.portal.kernel.exception.ModelListenerException;
+import com.liferay.portal.kernel.model.BaseModelListener;
+import com.liferay.portal.kernel.model.ResourcePermission;
 import com.liferay.portal.kernel.security.permission.ActionKeys;
+import com.liferay.portal.kernel.service.ResourcePermissionLocalServiceUtil;
 import com.liferay.portal.kernel.util.GetterUtil;
-import com.liferay.portal.model.BaseModelListener;
-import com.liferay.portal.model.ResourcePermission;
-import com.liferay.portal.service.ResourcePermissionLocalServiceUtil;
 import com.liferay.portlet.documentlibrary.model.DLFileEntry;
 import com.liferay.portlet.documentlibrary.model.DLFolder;
 import com.liferay.sync.model.SyncDLObject;
